@@ -1,0 +1,15 @@
+# KiCad
+*.kicad_prl
+fp-info-cache
+sym-lib-table
+~*.lck
+*-bak
+*-backups
+*-cache*
+*-bak*
+_autosave*
+\#auto_saved_files\#
+production
+
+# MkDocs
+site
