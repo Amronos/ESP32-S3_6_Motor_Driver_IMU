@@ -2163,7 +2163,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x10"
+		(symbol "Connector_Generic:Conn_01x09"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -2179,8 +2179,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x10"
-				(at 0 -15.24 0)
+			(property "Value" "Conn_01x09"
+				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2205,7 +2205,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2232,10 +2232,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x10_1_1"
+			(symbol "Conn_01x09_1_1"
 				(rectangle
 					(start -1.27 11.43)
-					(end 1.27 -13.97)
+					(end 1.27 -11.43)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -2335,17 +2335,6 @@
 				(rectangle
 					(start -1.27 -10.033)
 					(end 0 -10.287)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -12.573)
-					(end 0 -12.827)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -2509,24 +2498,6 @@
 						)
 					)
 					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -12.7 0)
-					(length 3.81)
-					(name "Pin_10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10335,6 +10306,16 @@
 		)
 		(uuid "ffc1f2e4-9f88-4dc3-963b-09aba3129a2e")
 	)
+	(label "TX{slash}43"
+		(at 331.47 25.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0150ad23-b06f-4129-8f89-9b9dd78a1413")
+	)
 	(label "OUT2"
 		(at 186.69 129.54 0)
 		(effects
@@ -10364,16 +10345,6 @@
 			(justify right bottom)
 		)
 		(uuid "0555df31-6979-464f-8af9-94e28eb1d337")
-	)
-	(label "RX{slash}44"
-		(at 331.47 30.48 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "09a34e1b-b587-4ec8-9230-0d3c25509724")
 	)
 	(label "PICO{slash}11"
 		(at 238.76 78.74 180)
@@ -10415,15 +10386,15 @@
 		)
 		(uuid "0d8368c0-f12d-4dd6-a6e1-175a6afe7892")
 	)
-	(label "41"
-		(at 331.47 38.1 180)
+	(label "40"
+		(at 331.47 33.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "0f9372ef-e329-4ce1-a7aa-0130fa038c28")
+		(uuid "0f337176-465b-4de4-a530-8650742cf4b3")
 	)
 	(label "JTAG{slash}3"
 		(at 304.8 22.86 180)
@@ -10504,16 +10475,6 @@
 			(justify right bottom)
 		)
 		(uuid "27f868d8-15b9-405f-8034-867b29decc7c")
-	)
-	(label "40"
-		(at 331.47 35.56 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "287d39dc-1b90-4da5-a693-98e0dc03a05a")
 	)
 	(label "D-"
 		(at 45.72 45.72 0)
@@ -10675,16 +10636,6 @@
 		)
 		(uuid "455834ac-9016-4a8b-a38d-d8b663ed8b6b")
 	)
-	(label "42"
-		(at 331.47 40.64 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "467b34d3-893d-4846-8a63-b8b1f3dff644")
-	)
 	(label "33"
 		(at 326.39 119.38 180)
 		(effects
@@ -10735,16 +10686,6 @@
 		)
 		(uuid "4fe36745-437a-463f-89ee-2e511b47cdb7")
 	)
-	(label "18"
-		(at 331.47 25.4 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "503c0846-4279-4c5d-972b-60064912559e")
-	)
 	(label "IMU_INT"
 		(at 135.89 66.04 180)
 		(effects
@@ -10755,15 +10696,15 @@
 		)
 		(uuid "5168f7d5-fa67-4a96-ba3d-c0b24c8752b7")
 	)
-	(label "17"
-		(at 331.47 22.86 180)
+	(label "RX{slash}44"
+		(at 331.47 27.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "525dfca0-8a2e-4050-9560-89115fb201d2")
+		(uuid "52489bd6-d99f-48f0-b9df-2627f1d1698b")
 	)
 	(label "OUT8"
 		(at 186.69 132.08 0)
@@ -10794,6 +10735,16 @@
 			(justify right bottom)
 		)
 		(uuid "607fff2a-4e2b-4ba0-8940-f64aaff89fcb")
+	)
+	(label "41"
+		(at 331.47 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "64ee824d-08ea-4275-a242-39e61a458178")
 	)
 	(label "PICO{slash}11"
 		(at 151.13 137.16 180)
@@ -10855,17 +10806,7 @@
 		)
 		(uuid "75517959-f08d-410c-8586-99efb47d6c09")
 	)
-	(label "TX{slash}43"
-		(at 331.47 27.94 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "761ba79d-e9eb-48e1-9a37-9387af72c8da")
-	)
-	(label "RST"
+	(label "IMU_RST"
 		(at 135.89 58.42 180)
 		(effects
 			(font
@@ -10894,6 +10835,16 @@
 			(justify right bottom)
 		)
 		(uuid "7eb14d84-eab3-4a05-93ba-5c061cbc02b1")
+	)
+	(label "39"
+		(at 331.47 30.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "808e4898-71f2-4271-859d-e92d08c24096")
 	)
 	(label "SCL{slash}9"
 		(at 304.8 30.48 180)
@@ -10935,6 +10886,16 @@
 		)
 		(uuid "893c5255-c896-406a-9333-d333daf217f8")
 	)
+	(label "VDD_SPI{slash}45"
+		(at 331.47 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "898c8bbd-6869-4a64-a278-897f8d8f3b8c")
+	)
 	(label "40"
 		(at 269.24 81.28 0)
 		(effects
@@ -10945,16 +10906,6 @@
 		)
 		(uuid "8c2a3f08-4871-4ae3-a7d3-b45d680ee9b5")
 	)
-	(label "39"
-		(at 331.47 33.02 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8eb781a7-4543-46ef-b292-683656d36b3b")
-	)
 	(label "OUT3"
 		(at 186.69 152.4 0)
 		(effects
@@ -10964,16 +10915,6 @@
 			(justify left bottom)
 		)
 		(uuid "8f623f1c-4beb-4d53-b49d-9e0702883f70")
-	)
-	(label "16"
-		(at 304.8 45.72 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8f776d34-81c9-4bfd-97f2-936aa29abf2a")
 	)
 	(label "35"
 		(at 269.24 68.58 0)
@@ -11004,6 +10945,16 @@
 			(justify left bottom)
 		)
 		(uuid "92db713e-fd9d-4b39-a278-bcde427f15fc")
+	)
+	(label "42"
+		(at 331.47 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "933c36ae-b8c6-45a7-b136-1c82fc712e1d")
 	)
 	(label "D+"
 		(at 269.24 55.88 0)
@@ -11085,7 +11036,7 @@
 		)
 		(uuid "a630a28e-a635-472f-bf16-bec4b075787b")
 	)
-	(label "17"
+	(label "IMU_RST"
 		(at 238.76 93.98 180)
 		(effects
 			(font
@@ -11145,16 +11096,6 @@
 		)
 		(uuid "b7a860bc-2ccc-439b-a4b9-7bdb32af02fb")
 	)
-	(label "LOG{slash}46"
-		(at 331.47 45.72 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b8872a5f-f215-46bc-87cc-f1b6c477206b")
-	)
 	(label "48"
 		(at 269.24 96.52 0)
 		(effects
@@ -11184,16 +11125,6 @@
 			(justify left bottom)
 		)
 		(uuid "bdf787fe-eaee-448c-a95f-7fa0d971c2b7")
-	)
-	(label "VDD_SPI{slash}45"
-		(at 331.47 43.18 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c0f6f094-222a-45bd-b4cc-bed277d2d15e")
 	)
 	(label "OUT9"
 		(at 306.07 138.43 180)
@@ -11275,7 +11206,7 @@
 		)
 		(uuid "cccab0b8-5572-4900-8ccb-fed56e42790e")
 	)
-	(label "18"
+	(label "IMU_INT"
 		(at 238.76 96.52 180)
 		(effects
 			(font
@@ -11355,6 +11286,16 @@
 		)
 		(uuid "e48026b9-0873-4a70-9d71-fd63afabded3")
 	)
+	(label "LOG{slash}46"
+		(at 331.47 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e52afdb6-9ff4-4d91-91bc-52caebc4c0b1")
+	)
 	(label "OUT4"
 		(at 151.13 152.4 180)
 		(effects
@@ -11374,6 +11315,16 @@
 			(justify left bottom)
 		)
 		(uuid "e79b563f-8fd9-43e3-be83-15dbfca1f374")
+	)
+	(label "16"
+		(at 331.47 22.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e95b975e-74fe-409e-ad0c-5cd0229b6931")
 	)
 	(label "48"
 		(at 151.13 144.78 180)
@@ -14830,7 +14781,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x10")
+		(lib_id "Connector_Generic:Conn_01x09")
 		(at 309.88 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14840,7 +14791,7 @@
 		(fields_autoplaced yes)
 		(uuid "5694cc78-4df7-4057-8ac6-5428670f8768")
 		(property "Reference" "J2"
-			(at 312.42 33.0199 0)
+			(at 312.42 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14848,8 +14799,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x10"
-			(at 312.42 35.5599 0)
+		(property "Value" "Conn_01x09"
+			(at 312.42 34.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14857,7 +14808,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical"
 			(at 309.88 33.02 0)
 			(effects
 				(font
@@ -14875,7 +14826,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 309.88 33.02 0)
 			(effects
 				(font
@@ -14911,9 +14862,6 @@
 		(pin "2"
 			(uuid "8241b99e-7a97-4d9b-b8ec-43ffc79ea1c4")
 		)
-		(pin "10"
-			(uuid "6f960054-47f8-40df-9672-1de3e6590c5b")
-		)
 		(instances
 			(project ""
 				(path "/959308a3-2165-41de-b981-c1010ac5709a"
@@ -14924,7 +14872,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x10")
+		(lib_id "Connector_Generic:Conn_01x09")
 		(at 336.55 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14934,7 +14882,7 @@
 		(fields_autoplaced yes)
 		(uuid "58996d72-dbb9-4b88-8341-179a4e913aaf")
 		(property "Reference" "J3"
-			(at 339.09 33.0199 0)
+			(at 339.09 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14942,8 +14890,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x10"
-			(at 339.09 35.5599 0)
+		(property "Value" "Conn_01x09"
+			(at 339.09 34.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14969,7 +14917,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 336.55 33.02 0)
 			(effects
 				(font
@@ -15004,9 +14952,6 @@
 		)
 		(pin "2"
 			(uuid "98a1bb10-9a01-467f-a8c0-a56382257f5d")
-		)
-		(pin "10"
-			(uuid "46fd8bbe-faf2-4567-a4e6-67334c357e90")
 		)
 		(instances
 			(project "ESP32-S3_6_Motor_Driver_IMU"

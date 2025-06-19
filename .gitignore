@@ -13,3 +13,6 @@ production
 
 # MkDocs
 site
+
+# Drawio
+*.bkp
