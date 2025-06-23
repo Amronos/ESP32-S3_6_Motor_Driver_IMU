@@ -14,4 +14,5 @@ This repository contains all code, design files, and information related to the 
 
 Directory information:
 
+- `assets/`: Assets used throughout this repository.
 - `hardware_design/`: Complete KiCad project design files – schematics and PCB layout for the board.

@@ -3,19 +3,18 @@ title: "ESP32-S3 6 Motor Driver with IMU"
 author: "Aarav Gupta"
 description: "A board featuring an ESP32-S3, a 6-channel DC motor driver, an integrated IMU, and support for encoder feedback."
 created_at: "2025-06-17"
-total_time_spent: 7.5 hours
+total_time_spent: 22.5 hours
 ---
 
-## 17th June 2025: Created Board Schematic
+## 19th to 22nd June 2025: Completed PCB
 
-Today I created the full schematic for the board.
-I settled on the following ICs: ESP32-S3, BNO086(IMU), DRV8912-Q1(Motor Driver), LMR38020FDDAR(5V Regulator), TPS2116DRLR(Power Mux for selecting between 5V from regulator and USB), LD39200PU33R(3.3V Regulator).
+I spent these 4 days creating the PCB layout and routing all the tracks. I also added test points and LEDs, alongisde fixing the last few errors with the schematic.
 
-| ![Schematic](hardware_design/schematic.svg) |
-| :-----------------------------------------: |
-|                  Schematic                  |
+| ![Top Layer of PCB](assets/journal/06-22_1.png) |
+| :---------------------------------------------: |
+|                Top Layer of PCB                 |
 
-**Total time spent: 6h**
+**Total time spent: 15h**
 
 ## 18th June 2025: Created a Diagram Showing ROS 2 Usage
 
@@ -27,3 +26,14 @@ I also made some fixes to the schematic.
 |                   ROS 2 Usage Diagram                   |
 
 **Total time spent: 1.5h**
+
+## 17th June 2025: Created Board Schematic
+
+Today I created the full schematic for the board.
+I settled on the following ICs: ESP32-S3, BNO086(IMU), DRV8912-Q1(Motor Driver), LMR38020FDDAR(5V Regulator), TPS2116DRLR(Power Mux for selecting between 5V from regulator and USB), LD39200PU33R(3.3V Regulator).
+
+| ![Schematic](assets/journal/06-17_1.svg) |
+| :--------------------------------------: |
+|                Schematic                 |
+
+**Total time spent: 6h**

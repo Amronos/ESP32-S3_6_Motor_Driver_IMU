@@ -1,0 +1,33 @@
+﻿"Designator","Footprint","Value","Manufacturer","Mfr. Part No.","Quantity"
+"C1, C16","0805","10 µF","Murata Electronics","GRM21BR61H106KE43L",2
+"C10, C11, C13, C15, C17, C18, C2, C21, C23, C24, C25, C3, C8, C9","0402","100 nF","Samsung Electro-Mechanics","CL05B104KB54PNC",14
+"C12, C14, C7","0603","10 µF","Murata Electronics","GRT188R61E106ME13D",3
+"C19","0402","4.7 µF","Murata Electronics","GRT155R61A475ME13D",1
+"C20, C22","0402","22 pF","Murata Electronics","GCM1555C1H220FA16D",2
+"C4, C5, C6","0603","22 µF","Murata Electronics","GRT188R61A226ME13D",3
+"D1","SOD3715X145N","1N5819HW-7-F","Diodes Incorporated","1N5819HW-7-F",1
+"D2, D3, D4","TVS_LESD5D5.0CT1G","LESD5D5.0CT1G","LRC","LESD5D5.0CT1G",3
+"D5","0603","LED","ROHM Semiconductor","SML-D12V8WT86C",1
+"J1","USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal","USB_C_Receptacle_USB2.0_16P",,,1
+"J2, J3","PinHeader_1x09_P2.54mm_Vertical","Conn_01x09",,,2
+"J4","PinHeader_1x01_P2.54mm_Vertical","Conn_01x01",,,1
+"J5, J6","TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal","Screw_Terminal_01x02",,,2
+"L1","INDPM102100X400N","15 µH","Coilcraft","MSS1038-153MLC",1
+"MOTOR1, MOTOR2, MOTOR3, MOTOR4, MOTOR5, MOTOR6","TerminalBlock_Xinya_XY308-2.54-6P_1x06_P2.54mm_Horizontal","Screw_Terminal_01x06",,,6
+"R1, R2","0402","5.1 kΩ",,,2
+"R10, R15, R16, R20, R22, R24, R26, R28, R3, R30, R32, R34, R36, R38, R39, R4, R5, R9","0402","10 kΩ",,,18
+"R11, R12, R17, R18","0402","4.7 kΩ",,,4
+"R13, R14, R19, R21, R23, R25, R27, R29, R31, R33, R35, R37","0402","20 kΩ",,,12
+"R40","0603","51 Ω",,,1
+"R6","0402","64.9 kΩ",,,1
+"R7","0402","100 kΩ",,,1
+"R8","0402","24.9 kΩ",,,1
+"SW1, SW2","SW_3-1437565-0","3-1437565-0","TE Connectivity","3-1437565-0",2
+"TP1, TP2, TP3","TestPoint_Pad_1.0x1.0mm","TestPoint",,,3
+"U1","ESP32-S2-MINI-1","ESP32-S3-MINI-1","Espressif Systems","ESP32-S3-MINI-1-N8",1
+"U2","SON95P300X300X100-7N","LD39200PU33R","STMicroelectronics","LD39200PU33R",1
+"U3","SOIC127P600X170-9N","LMR38020FDDAR","Texas Instruments","LMR38020FDDAR",1
+"U4","SOTFL50P160X60-8N","TPS2116DRLR","Texas Instruments","TPS2116DRLR",1
+"U5","SOP65P640X120-25N","DRV8912QPWPRQ1","Texas Instruments","DRV8912QPWPRQ1",1
+"U6","BNO086","BNO086","Ceva","BNO086",1
+"Y1","CM8V32768TA020125","32.768 kHz","Micro Crystal","CM8V-T1A-32.768kHz-12.5pF-20PPM-TB-QA",1
