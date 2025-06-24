@@ -3,8 +3,22 @@ title: "ESP32-S3 6 Motor Driver with IMU"
 author: "Aarav Gupta"
 description: "A board featuring an ESP32-S3, a 6-channel DC motor driver, an integrated IMU, and support for encoder feedback."
 created_at: "2025-06-17"
-total_time_spent: 22.5 hours
+total_time_spent: 29.5 hours
 ---
+
+## 24th June 2025: Started Working on Library
+
+I started working on the Arduino library for the board today. It is/will be a wrapper around other libraries that are used to control the BNO086 and DRV8912-Q1.<br>
+Today I created functions in the library for easily getting data from the IMU and printing it alongside an example Arduino sketch.<br>
+I am using the [SparkFun BNO08x Cortex Based IMU Library](https://github.com/sparkfun/SparkFun_BNO08x_Arduino_Library) for the BNO086 and will creating my own library for the DRV8912-Q1.
+
+**Total time spent: 4h**
+
+## 23rd June 2025: Created BOM
+
+Today I created the almost final BOM for the board containing all the components used on the board.
+
+**Total time spent: 3h**
 
 ## 19th to 22nd June 2025: Completed PCB
 
