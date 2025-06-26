@@ -3,8 +3,14 @@ title: "ESP32-S3 6 Motor Driver with IMU"
 author: "Aarav Gupta"
 description: "A board featuring an ESP32-S3, a 6-channel DC motor driver, an integrated IMU, and support for encoder feedback."
 created_at: "2025-06-17"
-total_time_spent: 29.5 hours
+total_time_spent: 31 hours
 ---
+
+## 26th June 2025: Minor Improvements
+
+Today I added X-Y axes for the IMU to the PCB's silkscreen alongside adding some more thermal vias.
+
+**Total time spent: 1.5h**
 
 ## 24th June 2025: Started Working on Library
 
