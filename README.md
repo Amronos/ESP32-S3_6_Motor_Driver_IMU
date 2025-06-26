@@ -11,7 +11,7 @@ Simply wire your motors, connect the board to a PC, another microcontroller, or 
 A full **Arduino library** for the board is available that allows you to control the motors, IMU, and read data from the encoders.<br>
 Sample **ROS 2** packages are also available, that show the recommended usage of the board with ROS 2.
 
-![3D Model Screenshot](assets/3D_View.png)
+![3D Model - Top](assets/readme/3D_View-Top.png)
 
 ## 📂 About this Repository
 
@@ -25,3 +25,8 @@ This repository contains all code, design files, and information related to the 
 ### Related Repositories
 
 - [ESP32-S3_6_Motor_Driver_IMU_Library](https://github.com/amronos/ESP32-S3_6_Motor_Driver_IMU_Library/): Arduino library for the board.
+
+## 📷 Images
+
+![3D Model - Bottom](assets/readme/3D_View-Bottom.png)
+![Top Layer Routing](assets/readme/Top_Layer_Routing.png)
