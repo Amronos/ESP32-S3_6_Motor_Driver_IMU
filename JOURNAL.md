@@ -8,7 +8,8 @@ total_time_spent: 31 hours
 
 ## 26th June 2025: Minor Improvements
 
-Today I added X-Y axes for the IMU to the PCB's silkscreen alongside adding some more thermal vias.
+Today I added X-Y axes for the IMU to the PCB's silkscreen alongside adding some more thermal vias.<br>
+I also fully completed the BOM.
 
 **Total time spent: 1.5h**
 
