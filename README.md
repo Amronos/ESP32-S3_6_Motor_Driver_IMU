@@ -30,3 +30,11 @@ This repository contains all code, design files, and information related to the 
 
 ![3D Model - Bottom](assets/readme/3D_View-Bottom.png)
 ![Top Layer Routing](assets/readme/Top_Layer_Routing.png)
+
+## Costs
+
+| Item                   | Price (USD) |
+| ---------------------- | ----------- |
+| Full PCB Manufacturing | $ 113.79    |
+| Shipping               | $ 25        |
+| **Subtotal**           | $ 138.79    |
