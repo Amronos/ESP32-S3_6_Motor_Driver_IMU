@@ -27,15 +27,27 @@ Today I created the almost final BOM for the board containing all the components
 
 **Total time spent: 3h**
 
-## 19th to 22nd June 2025: Completed PCB
+## 21st to 22nd June 2025: Completed PCB
 
-I spent these 4 days creating the PCB layout and routing all the tracks. I also added test points and LEDs, alongisde fixing the last few errors with the schematic.
+I spent these 2 days completing the PCB layout and routing all the tracks. The routing got pretty hard with the last 10 to 15 tracks and I had to use both of the inner layers to successfully route the PCB.
 
-| ![Top Layer of PCB](assets/journal/06-22_1.png) |
-| :---------------------------------------------: |
-|                Top Layer of PCB                 |
+| ![Layer 1](assets/journal/06-22_1.png) | ![Layer 2](assets/journal/06-22_2.png) | ![Layer 3](assets/journal/06-22_3.png) | ![Layer 4](assets/journal/06-22_4.png) |
+| :------------------------------------: | :------------------------------------: | :------------------------------------: | :------------------------------------: |
+|                Layer 1                 |                Layer 2                 |                Layer 3                 |                Layer 4                 |
 
-**Total time spent: 15h**
+**Total time spent: 8h**
+
+## 20th June 2025: Made Fixes to the Schematic
+
+I did a final review of the schematic today and did the needed fixes alongside adding test points and LEDs. I also routed some of the PCB today.
+
+**Total time spent: 5h**
+
+## 19th June 2025: Completed Placement of Connector Components
+
+Today I first placed the ESP32-S3 on the bottom right of the PCB similar to the recommendation in the application information. Then I placed the various types of connectors symetrically on the board, alongside positioning the screw holes.
+
+**Total time spent: 2h**
 
 ## 18th June 2025: Created a Diagram Showing ROS 2 Usage
 
